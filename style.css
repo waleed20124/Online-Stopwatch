@@ -1,0 +1,68 @@
+
+body{
+  font-family: "Roboto";
+  background-image: url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+button{
+  padding: 10px 10px ;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  color: white;
+  transition: 0.4s;
+}
+.start{
+  background-color: #16610E ;
+}
+.stop{
+  background-color:#EA2F14;
+}
+.reset{
+  background-color: #09122C;
+}
+.start:hover,.stop:hover,.reset:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+div{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #FCF5ED;
+ 
+}
+.time{
+  margin-bottom: 10px;
+}
+
+.w{
+  width: 300px;
+  height: 200px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  margin-top: 50px;
+}
+.h,.s,.m{
+  color: #EB5B00;
+  font-size: 2rem;
+}
+.q{
+  color: wheat;
+}
+.title{
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #FFB200
+}
