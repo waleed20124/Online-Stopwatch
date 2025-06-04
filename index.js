@@ -19,11 +19,11 @@ function Timer() {
 
   start.onclick = function () {
     if (validin === null) {
+        s++;
       validin = setInterval(() => {
         sec.innerHTML = format(s);
         min.innerHTML = format(m);
         hou.innerHTML = format(h);
-        s++;
         if (s === 60) {
           s = 0;
           m++;
